@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    font-family: Roboto, sans-serif;
+    
+}
+
+
+[class*="__container"]{
+    /* max-width: 1200px;
+    min-width: 1000px;
+    margin: 0 auto; */
+    
+}
+
+
+
+/*-------------------*/
+
+
+.main-page__container{
+    background: linear-gradient(90deg, rgba(255,250,241,1) 41.5%, rgba(33,33,33,1) 41.5%);
+}
+.main-page__content{
+    display: flex;
+    max-width: 85%;
+    /* max-width: 1000px; */
+    margin: 0 auto;
+    padding-top: 9.375rem;
+    padding-bottom: 9.375rem;
+}
+
+.main-page__aside{
+max-width: 40%;
+flex-direction: row;
+justify-content: flex-end;
+} 
+/* -------Aside------------- */
+.aside-main{
+    
+    background-color: #212121;
+    color: #D2D2D2;
+    padding: 4.375rem 3.75rem 4.375rem 3.75rem;
+    align-items: center;
+} 
+
+.aside-main__image{
+    margin: 0 auto;
+    max-width: 350px;
+    margin-bottom: 1.875rem;
+    border: 0.3125rem solid #D2D2D2;
+    height: 420px;
+    overflow: hidden;
+} 
+.aside-main__image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.aside-main__tittle{
+    font-size: 3.75rem;
+    line-height: 1.2;
+    margin-bottom: 0.9375rem;
+    font-weight: 700;
+    text-align: center;
+} 
+
+.aside-main__subtittle{
+    font-size: 1.5625rem;
+    margin-bottom: 3.75rem;
+    text-align: center;
+} 
+
+.aside-main__text{
+    /* max-width: 17.5rem; */
+}
+.aside-main__profile{
+text-align: center;
+font-weight: 700;
+font-size: 1.5625rem;
+margin-bottom: 1.5625rem;
+} 
+
+.aside-main__paragraph{
+    font-size: 18px;
+    margin-bottom: 3.75rem;
+    line-height: 1.5;
+    text-align: center;
+} 
+
+.aside-main__contact{
+    
+} 
+
+.contact-aside{
+
+} 
+
+.contact-aside__tittle{
+    font-size: 1.5625rem;
+    font-weight: 700;
+    margin-bottom: 1.5625rem;
+} 
+
+.contact-aside__phone{
+    margin-bottom: 0.625rem;
+    font-size: 1.25rem;
+} 
+
+.contact-aside__mail{
+    font-size: 1.25rem;
+} 
+
+/*---------------about main--------------*/
+
+.about-main{
+    background-color: #FFFAF1;
+    max-width: 60%;
+    justify-content: flex-start;
+}
+
+.about-main__content{
+    
+    color: #716F70;
+    padding: 4.375rem 2.8125rem 4.375rem 2.8125rem;
+}
+/*-----------------EXPERIENCE-----------*/
+.about-main__experience{
+    margin-bottom: 2.1875rem;
+    font-size: 1.125rem;
+} 
+.experience__job{
+
+}
+.experience__job:not(:last-child){
+    margin-bottom: 1.875rem;
+}
+
+.experience__exp{
+    font-size: 1.875rem;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #000000;
+    margin-bottom: 2.8125rem;
+    position: relative;
+} 
+
+
+.experience__exp::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0.125rem;
+    width: 100%;
+    height: 0.125rem;
+    background-color: #000000;
+    margin: 0 auto;
+}
+
+.experience__work{
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 0.625rem;
+    
+} 
+
+.experiencs__company{
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 0.3125rem;
+} 
+
+.experience__paragraph{
+
+} 
+/*------------EDUCATION-------------*/
+.about-main__education{
+    margin-bottom: 2.1875rem;
+    font-size: 1.125rem;
+}
+.education{
+
+}
+.education__tittle{
+    font-size: 1.875rem;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #000000;
+    margin-bottom: 2.8125rem;
+    position: relative;
+} 
+.education__tittle:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0.125rem;
+    width: 100%;
+    height: 0.125rem;
+    background-color: #000000;
+    margin: 0 auto;
+}
+
+.education__text{
+
+} 
+.education__text:not(:last-child){
+    margin-bottom: 1.875rem;
+}
+
+.education__name{
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 0.625rem;
+} 
+
+.education__university{
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 0.3125rem;
+} 
+
+.experience__paragraph{
+
+} 
+
+
+/*--------SKILLS----------*/
+.about-main__skills{
+    font-size: 1.125rem;
+    margin-bottom: 2.1875rem;
+}
+.skills{
+
+}
+.skills__tittle{
+    font-size: 1.875rem;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #000000;
+    margin-bottom: 2.8125rem;
+    position: relative;
+}
+.skills__tittle::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0.125rem;
+    width: 100%;
+    height: 0.125rem;
+    background-color: #000000;
+    margin: 0 auto;
+}
+.skills__content{
+    display: flex;
+    gap: 3.4375rem;
+    align-items: center;
+}
+.skills__names{
+    display: flex;
+    flex-direction: column;
+    gap: 0.9375rem;
+} 
+.skills__name{
+    font-weight: 700;
+}
+.skills__name:not(:last-child){
+    
+}
+
+.skills__points{
+    display: flex;
+    flex-direction: column;
+    gap: 0.9375rem;
+} 
+
+.skills__image{
+    display: flex;
+    gap: 1.25rem;
+} 
+.skills__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 18px;
+    height: 18px;
+    background-color: #000000;
+    border-radius: 50%;
+}
+.skills__item--border{
+    width: 18px;
+    height: 18px;
+    border: #000000 3px solid;
+    border-radius: 50%;
+}
+/*-----------LANGUAGES---------------*/
+.about-main__languages{
+    font-size: 1.125rem;
+    margin-bottom: 2.1875rem;
+}
+.languages{
+
+}
+.languages__tittle{
+    font-size: 1.875rem;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #000000;
+    margin-bottom: 2.8125rem;
+    position: relative;
+} 
+.languages__tittle::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0.125rem;
+    width: 100%;
+    height: 0.125rem;
+    background-color: #000000;
+    margin: 0 auto;
+}
+
+.languages__content{
+    display: flex;
+    justify-content: space-around;
+    gap: 8px;
+} 
+
+.languages__image{
+
+} 
+
+
+
+/*------------------HOBBIES--------------------*/
+.about-main__hobbies{
+    font-size: 1.125rem;
+} 
+
+.hobbies{
+
+} 
+
+.hobbies__tittle{
+    font-size: 1.875rem;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #000000;
+    margin-bottom: 2.8125rem;
+    position: relative;
+} 
+.hobbies__tittle::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0.125rem;
+    width: 100%;
+    height: 0.125rem;
+    background-color: #000000;
+    margin: 0 auto;
+}
+.hobbies__content{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(6.25rem, 1fr));
+    justify-content: center;
+    column-gap: 2.1875rem;
+} 
+
+.hobbies__image{
+
+} 
+
